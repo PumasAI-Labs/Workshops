@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Pumas-AI Workshops
+repo_name: PumasAI-Labs/Workshops
+repo_url: https://github.com/PumasAI-Labs/Workshops
+extra_css:
+  - stylesheets/iconfont.css
+plugins:
+  - search
+theme:
+  name: material
+  logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  favicon: assets/logo.png
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - julia
+  features:
+    - navigation.instant
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+extra:
+  homepage: https://pumas.ai
+  version:
+    provider: mike
+  generator: false
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://pumas.ai
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/pumas_ai
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/pumas-ai
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:training@pumas.ai
+markdown_extensions:
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
