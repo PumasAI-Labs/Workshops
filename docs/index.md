@@ -25,7 +25,7 @@ graph LR
 If you are planning to run a Pumas workshop please make sure you have checked
 for all of the items above:
 
-1. :material-check: **Decide on which workshop curriculum** from the PLACEHOLDER
+1. :material-check: **Decide on which workshop curriculum** from the table above
    would best serve your learners.
    Check for all the pre-requisites in the curriculum,
    specially previous pharmacometrics knowledge.
@@ -61,3 +61,8 @@ for all of the items above:
 1. :material-check: **Keep close contact with learners** by reminding them about deadlines,
    and emailing them a couple days before the workshop to remind them
    about any requirement.
+
+## Get in touch
+
+If you have any suggestions or want to get in touch with our education team,
+please send an email to <training@pumas.ai>.

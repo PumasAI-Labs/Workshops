@@ -2,6 +2,7 @@
 site_name: Pumas-AI Workshops
 repo_name: PumasAI-Labs/Workshops
 repo_url: https://github.com/PumasAI-Labs/Workshops
+copyright: Copyright &copy; 2023 Pumas-AI, Inc.
 extra_css:
   - stylesheets/iconfont.css
 plugins:
@@ -12,6 +13,22 @@ theme:
   icon:
     repo: fontawesome/brands/github
   favicon: assets/logo.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
   highlightjs: true
   hljs_languages:
       - yaml
@@ -21,10 +38,10 @@ theme:
     - navigation.footer
     - search.suggest
     - search.highlight
+    - toc.follow
+    - toc.integrate
 extra:
   homepage: https://pumas.ai
-  version:
-    provider: mike
   generator: false
   social:
     - icon: fontawesome/solid/globe
