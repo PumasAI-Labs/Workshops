@@ -5,21 +5,68 @@ description: Workshops templates for Pumas-AI PKPD workflows.
 
 [![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-| Workshop |            Site            |    Repository     |       Reference        |    Instructor Notes    |
-| -------- | :------------------------: | :---------------: | :--------------------: | :--------------------: |
-| ABC      | :material-window-maximize: | :material-github: | :material-eye-outline: | :material-plus-circle: |
-| DEF      | :material-window-maximize: | :material-github: | :material-eye-outline: | :material-plus-circle: |
-| GHI      | :material-window-maximize: | :material-github: | :material-eye-outline: | :material-plus-circle: |
+| Category                         | Title                                                                  |                 Workshop                  |               Site               |              Repository               |               Reference               | Instructor Notes |
+| -------------------------------- | ---------------------------------------------------------------------- | :---------------------------------------: | :------------------------------: | :-----------------------------------: | :-----------------------------------: | ---------------- |
+| Julia                            | Julia Variables and Types                                              | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Julia                            | Julia Syntax                                                           | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Julia                            | Julia Functions                                                        | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Julia                            | Julia Functional Programming                                           | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| NLME                             | Population, Model Blocks and Fitting                                   | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| NLME                             | Model Assessment                                                       | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| NLME                             | Covariates, Dose Control Parameters, and PKPD Indirect Response Models | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| NLME                             | Visualization with `PumasUtilities`                                    | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| NLME                             | Non-Gaussian and Time Manipulation                                     | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Discrete Modeling                | Logistic Regression                                                    | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Discrete Modeling                | Poisson Regression                                                     | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Discrete Modeling                | Time to Event                                                          | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Bayesian                         | Introduction to the Bayesian Workflow                                  | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Bayesian                         | Markov Chain Monte Carlo (MCMC)                                        | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Bayesian                         | Model Comparison                                                       | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| `DeepPumas`                      | Introduction to `DeepPumas`                                            | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Data Wrangling and Visualization | Data I/O and `DataFramesMeta`                                          | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Data Wrangling and Visualization | Visualizations with `AlgebraOfGraphics`                                | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+| Simulation                       | Simuation and Decision Making using Pumas                              | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 
 ## Requirements Workflow
 
 ```mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
+graph TB
+  J1[Julia Variables\nand Types] --> J2[Julia Syntax];
+  J2 --> J3[Julia Functions];
+  J3 --> J4[Julia Functional\nProgramming];
+  J2 --> N1[Population,\nModel Blocks\nand Fitting];
+  N1 --> N2[Model Assessment];
+  N2 --> N3[Covariates,\nDose Control Parameters,\nand PKPD Indirect\nResponse Models];
+  N2 --> N4[Visualization\nwith PumasUtilities];
+  N3 --> N5[Non-Gaussian and\nTime Manipulation];
+  N1 ----> D1[Logistic\nRegression];
+  N1 ----> D2[Poisson\nRegression];
+  N1 ----> D3[Time to\nEvent];
+  N1 --> B1[Introduction\nto the\nBayesian\nWorkflow];
+  B1 --> B2[Markov Chain\nMonte Carlo];
+  B2 --> B3[Model\nComparison];
+  N1 ----> DP1[Introduction\nto DeepPumas];
+  J2 --> DA1[Data I/O\nand DataFramesMeta];
+  J2 --> DA2[Visualizations\nwith\nAlgebraOfGraphics];
+  N2 & J3 ----> S1[Simulation\nand Decision\nMaking\nusing Pumas];
+
+  %% This is a good color blind friendly palette
+  %% https://gist.github.com/tpoisot/ad38a5ed789cc549b2140f9688447ccd
+  %% From https://www.nature.com/articles/nmeth.1618
+  classDef orange fill:#e69f00;
+  classDef blue fill:#0072b2;
+  classDef skyblue fill:#56b4e9;
+  classDef yellow fill:#f0e442;
+  classDef green fill:#009e73;
+  classDef vermillion fill:#d55e00;
+  classDef reddishpurple fill:#cc79a7;
+
+  class J1,J2,J3,J4 orange;
+  class N1,N2,N3,N4,N5 blue;
+  class D1,D2,D3 yellow;
+  class B1,B2,B3 skyblue;
+  class DA1,DA2 green;
+  class S1 vermillion;
 ```
 
 ## Workshop Checklist
