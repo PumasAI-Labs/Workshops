@@ -5,8 +5,8 @@ description: Workshops templates for Pumas-AI PKPD workflows.
 
 [![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-| Category                         | Title                                                                  |                 Workshop                  |               Site               |              Repository               |               Reference               | Instructor Notes |
-| -------------------------------- | ---------------------------------------------------------------------- | :---------------------------------------: | :------------------------------: | :-----------------------------------: | :-----------------------------------: | ---------------- |
+| Category                         | Title                                                                  |                   Site                    |            Repository            |               Reference               |           Instructor Notes            |
+| -------------------------------- | ---------------------------------------------------------------------- | :---------------------------------------: | :------------------------------: | :-----------------------------------: | :-----------------------------------: |
 | Julia                            | Julia Variables and Types                                              | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Julia                            | Julia Syntax                                                           | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Julia                            | Julia Functions                                                        | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
