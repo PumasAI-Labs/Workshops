@@ -107,6 +107,9 @@ for all of the items above:
 1. :material-check: **Email learners with instructions** on how to have access to Pumas,
    installation procedures, and any other requirements such as
    downloading data and code.
+   Additionally, users should be aware of the **Code of Conduct**
+   and abide by it at all times not only during the workshop,
+   but in any related activities.
 1. :material-check: **Keep close contact with learners** by reminding them about deadlines,
    and emailing them a couple days before the workshop to remind them
    about any requirement.

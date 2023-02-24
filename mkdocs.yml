@@ -3,8 +3,6 @@ site_name: Pumas-AI Workshops
 repo_name: PumasAI-Labs/Workshops
 repo_url: https://github.com/PumasAI-Labs/Workshops
 copyright: Copyright &copy; 2023 Pumas-AI, Inc.
-extra_css:
-  - stylesheets/iconfont.css
 plugins:
   - search
 theme:
@@ -34,6 +32,8 @@ theme:
       - yaml
       - julia
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - navigation.footer
     - search.suggest
