@@ -54,10 +54,10 @@ graph TB
   %% https://gist.github.com/tpoisot/ad38a5ed789cc549b2140f9688447ccd
   %% From https://www.nature.com/articles/nmeth.1618
   classDef orange fill:#e69f00;
-  classDef blue fill:#0072b2;
+  classDef blue fill:#0072b2, color:#ffffff;
   classDef skyblue fill:#56b4e9;
   classDef yellow fill:#f0e442;
-  classDef green fill:#009e73;
+  classDef green fill:#009e73, color:#ffffff;
   classDef vermillion fill:#d55e00;
   classDef reddishpurple fill:#cc79a7;
 
