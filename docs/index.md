@@ -46,18 +46,18 @@ graph TB
   J2 --> N1[Population,\nModel Blocks\nand Fitting];
   N1 --> N2[Model Assessment];
   N2 --> N3[Covariates,\nDose Control Parameters,\nand PKPD Indirect\nResponse Models];
-  N2 --> N4[Visualization\nwith PumasUtilities];
-  N3 --> N5[Non-Gaussian and\nTime Manipulation];
-  N1 ----> D1[Logistic\nRegression];
-  N1 ----> D2[Poisson\nRegression];
+  %% N2 --> N4[Visualization\nwith PumasUtilities];
+  %% N3 --> N5[Non-Gaussian and\nTime Manipulation];
+  %% N1 ----> D1[Logistic\nRegression];
+  %% N1 ----> D2[Poisson\nRegression];
   N1 ----> D3[Time to\nEvent];
-  N1 --> B1[Introduction\nto the\nBayesian\nWorkflow];
-  B1 --> B2[Markov Chain\nMonte Carlo];
-  B2 --> B3[Model\nComparison];
-  N1 ----> DP1[Introduction\nto DeepPumas];
+  %% N1 --> B1[Introduction\nto the\nBayesian\nWorkflow];
+  %% B1 --> B2[Markov Chain\nMonte Carlo];
+  %% B2 --> B3[Model\nComparison];
+  %% N1 ----> DP1[Introduction\nto DeepPumas];
   J2 --> DA1[Data I/O\nand DataFramesMeta];
   J2 --> DA2[Visualizations\nwith\nAlgebraOfGraphics];
-  N2 & J3 ----> S1[Simulation\nand Decision\nMaking\nusing Pumas];
+  %% N2 & J3 ----> S1[Simulation\nand Decision\nMaking\nusing Pumas];
 
   %% This is a good color blind friendly palette
   %% https://gist.github.com/tpoisot/ad38a5ed789cc549b2140f9688447ccd
