@@ -14,18 +14,27 @@ description: Workshops templates for Pumas-AI PKPD workflows.
 | NLME                             | Population, Model Blocks and Fitting                                   | [:material-window-maximize:](https://pumasai-labs.github.io/NLME-Model/) | [:material-github:](https://github.com/PumasAI-Labs/NLME-Model) | [:material-eye-outline:](https://pumasai-labs.github.io/NLME-Model/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/NLME-Model/instructors/) |
 | NLME                             | Model Assessment                                                       | [:material-window-maximize:](https://pumasai-labs.github.io/NLME-Assessment/) | [:material-github:](https://github.com/PumasAI-Labs/NLME-Assessment) | [:material-eye-outline:](https://pumasai-labs.github.io/NLME-Assessment/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/NLME-Assessment/instructors/) |
 | NLME                             | Covariates, Dose Control Parameters, and PKPD Indirect Response Models | [:material-window-maximize:](https://pumasai-labs.github.io/NLME-Intermediate/) | [:material-github:](https://github.com/PumasAI-Labs/NLME-Intermediate) | [:material-eye-outline:](https://pumasai-labs.github.io/NLME-Intermediate/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/NLME-Intermediate/instructors/) |
+| Discrete Modeling                | Time to Event                                                          | [:material-window-maximize:](https://pumasai-labs.github.io/Time-to-Event/) | [:material-github:](https://github.com/PumasAI-Labs/Time-to-Event) | [:material-eye-outline:](https://pumasai-labs.github.io/Time-to-Event/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Time-to-Event/instructors/) |
+| Data Wrangling and Visualization | Data I/O and `DataFramesMeta`                                          | [:material-window-maximize:](https://pumasai-labs.github.io/Data-Wrangling/) | [:material-github:](https://github.com/PumasAI-Labs/Data-Wrangling) | [:material-eye-outline:](https://pumasai-labs.github.io/Data-Wrangling/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Data-Wrangling/instructors/) |
+| Data Wrangling and Visualization | Visualizations with `AlgebraOfGraphics`                                | [:material-window-maximize:](https://pumasai-labs.github.io/Data-Visualization/) | [:material-github:](https://github.com/PumasAI-Labs/Data-Visualization) | [:material-eye-outline:](https://pumasai-labs.github.io/Data-Visualization/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Data-Visualization/instructors/) |
+<!--
+
+NOTE: all workshops of the following workshops used to be placed below "Covariates, Dose Control Parameters and PKPD Indirect Response models"
+and above "Data I/O and DataFramesMeta"
+
 | NLME                             | Visualization with `PumasUtilities`                                    | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | NLME                             | Non-Gaussian and Time Manipulation                                     | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Discrete Modeling                | Logistic Regression                                                    | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Discrete Modeling                | Poisson Regression                                                     | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
-| Discrete Modeling                | Time to Event                                                          | [:material-window-maximize:](https://pumasai-labs.github.io/Time-to-Event/) | [:material-github:](https://github.com/PumasAI-Labs/Time-to-Event) | [:material-eye-outline:](https://pumasai-labs.github.io/Time-to-Event/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Time-to-Event/instructors/) |
+
+NOTE: "Time to Event" used to be placed here
+
 | Bayesian                         | Introduction to the Bayesian Workflow                                  | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Bayesian                         | Markov Chain Monte Carlo (MCMC)                                        | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Bayesian                         | Model Comparison                                                       | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | `DeepPumas`                      | Introduction to `DeepPumas`                                            | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
-| Data Wrangling and Visualization | Data I/O and `DataFramesMeta`                                          | [:material-window-maximize:](https://pumasai-labs.github.io/Data-Wrangling/) | [:material-github:](https://github.com/PumasAI-Labs/Data-Wrangling) | [:material-eye-outline:](https://pumasai-labs.github.io/Data-Wrangling/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Data-Wrangling/instructors/) |
-| Data Wrangling and Visualization | Visualizations with `AlgebraOfGraphics`                                | [:material-window-maximize:](https://pumasai-labs.github.io/Data-Visualization/) | [:material-github:](https://github.com/PumasAI-Labs/Data-Visualization) | [:material-eye-outline:](https://pumasai-labs.github.io/Data-Visualization/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Data-Visualization/instructors/) |
 | Simulation                       | Simulation and Decision Making using Pumas                              | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
+-->
 
 ## Requirements Workflow
 
@@ -37,18 +46,18 @@ graph TB
   J2 --> N1[Population,\nModel Blocks\nand Fitting];
   N1 --> N2[Model Assessment];
   N2 --> N3[Covariates,\nDose Control Parameters,\nand PKPD Indirect\nResponse Models];
-  N2 --> N4[Visualization\nwith PumasUtilities];
-  N3 --> N5[Non-Gaussian and\nTime Manipulation];
-  N1 ----> D1[Logistic\nRegression];
-  N1 ----> D2[Poisson\nRegression];
+  %% N2 --> N4[Visualization\nwith PumasUtilities];
+  %% N3 --> N5[Non-Gaussian and\nTime Manipulation];
+  %% N1 ----> D1[Logistic\nRegression];
+  %% N1 ----> D2[Poisson\nRegression];
   N1 ----> D3[Time to\nEvent];
-  N1 --> B1[Introduction\nto the\nBayesian\nWorkflow];
-  B1 --> B2[Markov Chain\nMonte Carlo];
-  B2 --> B3[Model\nComparison];
-  N1 ----> DP1[Introduction\nto DeepPumas];
+  %% N1 --> B1[Introduction\nto the\nBayesian\nWorkflow];
+  %% B1 --> B2[Markov Chain\nMonte Carlo];
+  %% B2 --> B3[Model\nComparison];
+  %% N1 ----> DP1[Introduction\nto DeepPumas];
   J2 --> DA1[Data I/O\nand DataFramesMeta];
   J2 --> DA2[Visualizations\nwith\nAlgebraOfGraphics];
-  N2 & J3 ----> S1[Simulation\nand Decision\nMaking\nusing Pumas];
+  %% N2 & J3 ----> S1[Simulation\nand Decision\nMaking\nusing Pumas];
 
   %% This is a good color blind friendly palette
   %% https://gist.github.com/tpoisot/ad38a5ed789cc549b2140f9688447ccd
