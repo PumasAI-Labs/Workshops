@@ -17,6 +17,7 @@ description: Workshops templates for Pumas-AI PKPD workflows.
 | Discrete Modeling                | Time to Event                                                          | [:material-window-maximize:](https://pumasai-labs.github.io/Time-to-Event/) | [:material-github:](https://github.com/PumasAI-Labs/Time-to-Event) | [:material-eye-outline:](https://pumasai-labs.github.io/Time-to-Event/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Time-to-Event/instructors/) |
 | Data Wrangling and Visualization | Data I/O and `DataFramesMeta`                                          | [:material-window-maximize:](https://pumasai-labs.github.io/Data-Wrangling/) | [:material-github:](https://github.com/PumasAI-Labs/Data-Wrangling) | [:material-eye-outline:](https://pumasai-labs.github.io/Data-Wrangling/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Data-Wrangling/instructors/) |
 | Data Wrangling and Visualization | Visualizations with `AlgebraOfGraphics`                                | [:material-window-maximize:](https://pumasai-labs.github.io/Data-Visualization/) | [:material-github:](https://github.com/PumasAI-Labs/Data-Visualization) | [:material-eye-outline:](https://pumasai-labs.github.io/Data-Visualization/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/Data-Visualization/instructors/) |
+| DeepPumas                        | Introduction to Machine Learning and Neural Networks                   | [:material-window-maximize:](https://pumasai-labs.github.io/MachineLearning-and-NeuralNetworks/) | [:material-github:](https://github.com/PumasAI-Labs/MachineLearning-and-NeuralNetworks) | [:material-eye-outline:](https://pumasai-labs.github.io/MachineLearning-and-NeuralNetworks/reference/) | [:material-plus-circle:](https://pumasai-labs.github.io/MachineLearning-and-NeuralNetworks/instructors/) |
 <!--
 
 NOTE: all workshops of the following workshops used to be placed below "Covariates, Dose Control Parameters and PKPD Indirect Response models"
@@ -32,7 +33,6 @@ NOTE: "Time to Event" used to be placed here
 | Bayesian                         | Introduction to the Bayesian Workflow                                  | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Bayesian                         | Markov Chain Monte Carlo (MCMC)                                        | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Bayesian                         | Model Comparison                                                       | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
-| `DeepPumas`                      | Introduction to `DeepPumas`                                            | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 | Simulation                       | Simulation and Decision Making using Pumas                              | [:material-window-maximize:](PLACEHOLDER) | [:material-github:](PLACEHOLDER) | [:material-eye-outline:](PLACEHOLDER) | [:material-plus-circle:](PLACEHOLDER) |
 -->
 
@@ -54,7 +54,7 @@ graph TB
   %% N1 --> B1[Introduction\nto the\nBayesian\nWorkflow];
   %% B1 --> B2[Markov Chain\nMonte Carlo];
   %% B2 --> B3[Model\nComparison];
-  %% N1 ----> DP1[Introduction\nto DeepPumas];
+  N1 ----> DP1[Introduction to \n Machine Learning and \n Neural Networks];
   J2 --> DA1[Data I/O\nand DataFramesMeta];
   J2 --> DA2[Visualizations\nwith\nAlgebraOfGraphics];
   %% N2 & J3 ----> S1[Simulation\nand Decision\nMaking\nusing Pumas];
